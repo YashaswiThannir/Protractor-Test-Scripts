@@ -14,7 +14,7 @@ describe("Testing the calculator Application", function(){
     })
     it("Title match", function(){
         title.then(function(text){
-            expect(text).toEqual("Protractor practice website - Calculator");
+            expect(text).toEqual("1Protractor practice website - Calculator");
             logger.log('info','validating the title');
         });
     });

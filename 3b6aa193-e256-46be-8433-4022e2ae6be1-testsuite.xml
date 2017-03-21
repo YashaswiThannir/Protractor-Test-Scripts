@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490074707799" stop="1490074722442">
+	<name>Testing the calculator Application</name>
+	<title>Testing the calculator Application</title>
+	<test-cases>
+		<test-case start="1490074707799" stop="1490074714543" status="passed">
+			<name>Title match</name>
+			<title>Title match</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ed6c28b1-f590-497c-9cf3-346327f6564f-attachment.png" type="image/png" size="79332"/>
+			</attachments>
+		</test-case>
+		<test-case start="1490074714543" stop="1490074718498" status="passed">
+			<name>Title do not match</name>
+			<title>Title do not match</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5016d9b2-6804-4427-a8cc-0a46c29a803c-attachment.png" type="image/png" size="79332"/>
+			</attachments>
+		</test-case>
+		<test-case start="1490074718498" stop="1490074722442" status="passed">
+			<name>Title matches partially</name>
+			<title>Title matches partially</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4241279b-80bb-4ec5-9157-354febe3ee3f-attachment.png" type="image/png" size="79332"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490074908239" stop="1490074922122">
+	<name>Testing the calculator Application</name>
+	<title>Testing the calculator Application</title>
+	<test-cases>
+		<test-case start="1490074908240" stop="1490074914216" status="failed">
+			<name>Title match</name>
+			<title>Title match</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e6012930-1dc4-4801-b134-8d391130af02-attachment.png" type="image/png" size="79332"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;Protractor practice website - Calculator&apos; to equal &apos;1Protractor practice website - Calculator&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at /Users/yashaswithannir/WebstormProjects/ProtractorTests/matcherCalculatorApp.js:17:26
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1490074914216" stop="1490074918178" status="passed">
+			<name>Title do not match</name>
+			<title>Title do not match</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0f69e771-b75b-467e-b174-c1a5ed3ca99f-attachment.png" type="image/png" size="79332"/>
+			</attachments>
+		</test-case>
+		<test-case start="1490074918178" stop="1490074922122" status="passed">
+			<name>Title matches partially</name>
+			<title>Title matches partially</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c59be10e-8a3f-4767-b4c2-bd6bf2be83ac-attachment.png" type="image/png" size="79332"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
