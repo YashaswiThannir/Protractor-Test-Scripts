@@ -1,0 +1,6 @@
+{"level":"info","message":"Navigating to the website","timestamp":"2017-03-21T04:40:19.723Z"}
+{"level":"info","message":"validating the title","timestamp":"2017-03-21T04:40:22.281Z"}
+{"level":"info","message":"Navigating to the website","timestamp":"2017-03-21T04:40:25.290Z"}
+{"level":"info","message":"validating the title to be wrong","timestamp":"2017-03-21T04:40:25.971Z"}
+{"level":"info","message":"Navigating to the website","timestamp":"2017-03-21T04:40:28.981Z"}
+{"level":"info","message":"validating the title to match partially","timestamp":"2017-03-21T04:40:29.598Z"}
