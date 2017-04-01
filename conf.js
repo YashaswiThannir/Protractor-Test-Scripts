@@ -5,11 +5,11 @@ exports.config = {
   },
   framework: 'jasmine2',
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['matcherCalculatorApp.js'],
+  specs: ['../testspec/BankManagerLoginTest.js', '../testspec/CustomerInfoTest.js'],
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000
-},
-    onPrepare: function() {
+}
+  /*  onPrepare: function() {
         var AllureReporter = require('jasmine-allure-reporter');
         jasmine.getEnv().addReporter(new AllureReporter({
             resultsDir: 'allure-results'
@@ -22,5 +22,5 @@ exports.config = {
                 done();
             })
         });
-    }
+    }*/
 };
